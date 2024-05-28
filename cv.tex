@@ -1,0 +1,425 @@
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/11/21)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Stijn Dejongh
+% Based on a template by Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt, blue]{./template/developercv} % Default font size, values from 8-12pt are recommended
+\PassOptionsToPackage{dvipsnames}{xcolor}
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+% Remove this import if you have no need for the header information
+% \input{./template/header}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\hspace{18pt}
+\begin{minipage}[t]{0.12\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{-.38cm}
+	\img{img/me3}
+\end{minipage}
+\begin{minipage}[t]{0.63\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{-.38cm}
+	\colorbox{accent}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{Dennis}}}}} % First name
+	\hspace{-2pt}
+	\colorbox{accent}{{\Huge\textcolor{white}{\textbf{\MakeUppercase{Fiallo}}}}} % Last name
+    \vspace{0.35cm}
+
+	{\LARGE Computer Scientist}\\ % Career or current job title
+
+
+
+\end{minipage}
+\hspace{-5pt}
+\begin{minipage}[t]{0.22\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{0pt}
+	\color{darkCalmBlue}
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\ssmall
+	\linkedin{\href{https://linkedin.com/in/dennis-fiallo-a75670256}{/dennis-fiallo}}\\
+
+	\vspace{-4pt}
+	\github{\href{https://github.com/dfiallo35}{/dfiallo35}}\\
+
+	\vspace{-4pt}
+	\email{\href{mailto:dfiallo35@gmail.com}{dfiallo35@gmail.com}}\\
+
+	\vspace{-4pt}
+	\callme{+53 5848-1152}
+
+	\vspace{-5pt}
+\end{minipage}
+\hfill % Whitespace between
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	About Me
+%----------------------------------------------------------------------------------------
+
+
+\vspace{8pt}
+\cvsect{About Me}
+\\
+I am a computer scientist with a strong passion for machine learning, artificial intelligence, and web development.
+I am dedicated to staying up-to-date with the latest advancements and leveraging innovative tools.
+I am a collaborative team player and successfully work with multidisciplinary teams to deliver high-quality software solutions.
+I am committed to making a positive impact through exceptional software development.
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+
+
+\cvsect{Education}
+\vspace{2.1mm}
+\begin{entrylist}
+	\entry
+	{09/2019 – 01/2024}
+	{University of Havana}
+	{School of Math and Computer Science}
+	{
+		\vspace{0.3mm}
+		\begin{minipage}[t]{0.75\textwidth}
+			\vspace{-\baselineskip}
+			\itemmarker Good grades in most of the subjects of the course.\\
+			\itemmarker Member of "Dynamic Systems Analysis" Research group. \\
+
+			\skilllist{
+				Artificial Intelligence,
+				Machine Learning,
+				Software Engineering,
+				Design and Analysis of Algorithms,
+				Database Systems,
+				Data Structures and Algorithms,
+				Compilers,
+				Computer Architecture,
+				Distributed Systems,
+				Simulation
+			}
+
+		\end{minipage}
+	}
+	{Bachelor's Degree}
+
+
+
+	\entry
+		{09/2015 – 07/2018}
+		{}
+		{Vocational High School Institute of Exact Sciences Vladimir Ilich Lenin}
+		{
+			\vspace{0.3mm}
+			\begin{minipage}[t]{0.75\textwidth}
+				\vspace{-\baselineskip}
+				\itemmarker Top-performing student at the Vocational High School Institute of Exact Sciences Vladimir Ilich Lenin in Cuba.\\
+				\vspace{-3mm}\\
+				\itemmarker Strong aptitude for mathematics, science, and technology. \\
+				\vspace{-20mm}
+			\end{minipage}
+	   }
+		{High School}
+\end{entrylist}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\vspace{8pt}
+\cvsect{Experience}
+\vspace{2.1mm}
+\begin{entrylist}
+	\entry
+	{09/2023 -- present}
+	{Avangenio}
+	{Development Department}
+	{
+		\vspace{0.3mm}
+		\begin{minipage}[t]{0.75\textwidth}
+			\vspace{-\baselineskip}
+			\itemmarker I have worked on international projects as a backend developer, primarily using FastAPI and AWS with a microservices architecture.\\
+			\itemmarker I have worked on developing ERP systems using the Frappe framework.
+		\end{minipage}
+
+		\techlist{Python, JavaScript, FastAPI, Frappe, Postgres, AWS, SQL, HTML, Postman}
+	}
+	{Junior Backend Developer}
+
+
+	\entry
+	{09/2022 -- 01/2024}
+	{University of Havana}
+	{"Dinamic Systems Analysis" Research group}
+	{
+		\vspace{0.3mm}
+		\begin{minipage}[t]{0.75\textwidth}
+			\vspace{-\baselineskip}
+			\itemmarker Developed and implemented a tool for the representation of causal graphs to support the PhD research project of a member of my research group, resulting in a user-friendly and effective tool that facilitated the analysis and visualization of complex causal relationships. \\
+			\itemmarker Currently researching the predictive power of Echo State Networks (ESNs) for predicting chaotic time series. \\
+		\end{minipage}
+
+		\techlist{Python, Keras, Tensorflow, Streamlit}
+	}
+	{Research}
+
+
+	\entry
+	{06/2021 - 12/2021}
+	{SICMA}
+	{Development Department}
+	{
+		\vspace{0.3mm}
+		\begin{minipage}[t]{0.75\textwidth}
+			\vspace{-\baselineskip}
+			\itemmarker Completed a program on generating business documents with digital signature during my internship at SICMA, gaining practical experience with electronic signature software and ensuring secure and efficient document signing processes."\\
+ 			\vspace{-3mm}
+		\end{minipage}
+
+		\techlist{Python, Qt5}
+	}
+	{Internship}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\vspace{-8mm}
+\begin{minipage}[t]{0.35\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{Languages}
+
+	\vspace{1.2mm}
+	\small \textbf{Spanish} \hfill {\ssmall C2 Proficient User \cpipe Mother tongue \hspace{3pt}} \\
+
+	\vspace{-0.5mm}
+	\small \textbf{English} \hfill \hspace{-5pt}{\ssmall B2 Independent User \hspace{3pt}} \\
+
+	\vspace{-0.5mm}
+	\small \textbf{French} \hfill \hspace{-5pt}{\ssmall A1 Basic User \hspace{3pt}} \\
+
+
+	\cvsect{Soft Skills}
+
+	\itemmarker Teamwork
+	\itemmarker Easily Adaptable
+	\itemmarker Time management
+	\itemmarker Attention to details
+	\itemmarker Continuous learning
+
+	\cvsect{Hobbies}
+
+	\itemmarker Strategy and RPG Games: I enjoy playing strategy and role-playing games as a way to unwind and exercise my problem-solving skills.
+
+	\itemmarker Fruit Wine Making: I like to experiment with making fruit wine as a fun and creative hobby, combining my interests in science and culinary arts.
+
+	\itemmarker Reading About State of the Art in ML: I keep up-to-date with the latest advancements in machine learning by reading research papers and articles, which helps me stay informed about industry trends and new techniques.
+
+	\itemmarker Listening to Lofi Music to Relax: I enjoy listening to lofi music as a way to relax and focus, which helps me stay productive and motivated.
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.60\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsect{COLLABORATIVE AND PERSONAL PROJECTS}
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/dionisio35/LouvreMuseum}{LouvreMuseum}} \\
+	\footnotesize Museum website with data management system for administrators, including a sales and loan system between museums, developed using Python with Django, SQLite, and HTML, CSS, and Javascript with the Bootstrap framework.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/dionisio35/Skyrimdb}{Skyrimdb}} \\
+	\footnotesize Project of a dummy Database system to store player and environment data and stats based in Python with Django, Sqlite and HTML, CSS and Javascript with Boostrap frame-work.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/dionisio35/TagNetFS}{TagNetFS}} \\
+	\footnotesize A tag-based distributed file system implemented in Python using a distributed database built from scratch.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/dionisio35/CausalFlow}{CausalFlow}} \\
+	\footnotesize Tool for the representation of causal graphs.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/dionisio35/NDS}{NDS}} \\
+	\footnotesize Turing complete programming language compiler using the Sly library, designed for simulating the development of nations.
+
+	
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/sour6ce/mint-shell}{Mint Shell}} \\
+	\footnotesize Shell for Linux-based OS based on other existing terminals in C programming.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/dionisio35/web_server}{Web Server}} \\
+	\footnotesize FTP server in C programming language.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/dionisio35/haskell_hidato}{Haskell Hidato}} \\
+	\footnotesize Generator and solver for the Hidato Sudoku game in functionalprogramming language Haskell.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/dionisio35/Azul}{Azul}} \\
+	\footnotesize Simulation of the Blue Board Game in Prolog programming Language.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{\linkage{https://github.com/rolysr/medical-knowledge-discoverer}{medical-knowledge-discoverer}} \\
+	\footnotesize Knowledge discovery in medical documents using Machine Learning.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{MusicaMuse (ongoing)} \\
+	\footnotesize Private project for music generation using machine learning.
+
+	\vspace{1.2mm}
+	\textcolor{accentbackground}{\faCode}\hspace{0.5mm}
+	\small \textbf{ESN (ongoing)} \\
+	\footnotesize Research about the predictive power of Echo State Networks(ESN) for predicting chaotic time series.
+
+\end{minipage}
+
+
+
+
+
+
+% \clearpage
+%----------------------------------------------------------------------------------------
+%	SKILL SECTIONS
+%----------------------------------------------------------------------------------------
+
+
+
+\cvsect{Skills}
+
+\vspace{3.2mm}
+\begin{minipage}[t]{0.45\textwidth}
+
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Programming and Scripting languages}
+	\\
+		\begin{minipage}[t]{\textwidth}
+			\hspace{7mm} \cvskill{Python}{5}
+			\hspace{7mm} \cvskill{JavaScript}{4}
+			\hspace{7mm} \cvskill{C\#}{4}
+			\hspace{7mm} \cvskill{Assembly}{4}
+			\hspace{7mm} \cvskill{SQL}{4}
+			\hspace{7mm} \cvskill{C/C++}{4}
+			\hspace{7mm} \cvskill{Prolog}{3}
+			\hspace{7mm} \cvskill{Haskell}{3}
+			\hspace{7mm} \cvskill{R}{2}
+			\vspace{2.5mm}
+		\end{minipage}
+	\vspace{8mm}
+
+
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Markup languages}
+	\\
+	\begin{minipage}[t]{\textwidth}
+		\hspace{7mm} \cvskill{Markdown}{5}
+		\hspace{7mm} \cvskill{LaTeX}{3}
+		\hspace{7mm} \cvskill{HTML}{3}
+		\hspace{7mm} \cvskill{CSS}{2}
+		\vspace{2.5mm}
+	\end{minipage}
+	\vspace{8mm}
+
+
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{Frameworks, Tools and libraries}
+	\\
+	\begin{minipage}[t]{\textwidth}
+		\hspace{7mm} \cvskill{FastApi}{5}
+		\hspace{7mm} \cvskill{Frappe/ERPNext}{5}
+		\hspace{7mm} \cvskill{Git/Github/GitLab/Bitbucket}{5}
+		\hspace{7mm} \cvskill{Django}{4}
+		\hspace{7mm} \cvskill{Postgres}{4}
+		\hspace{7mm} \cvskill{Docker}{4}
+		\hspace{7mm} \cvskill{Keras/Scikit-Learn}{4}
+		\vspace{2.5mm}
+	\end{minipage}
+	\vspace{8mm}
+
+
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\skillsect{ Algorithms and Math Knowledge}
+	\\
+	\begin{minipage}[t]{\textwidth}
+		\hspace{7mm} \cvskill{Data Structures}{4}
+		\hspace{7mm} \cvskill{Algebra}{4}
+		\hspace{7mm} \cvskill{Probability and Statistics}{4}
+		\hspace{7mm} \cvskill{Dynamic Programming}{3}
+		\hspace{7mm} \cvskill{Graph Theory}{3}
+		\vspace{2.5mm}
+	\end{minipage}
+\end{minipage}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	PERSONALITY SECTIONS
+%----------------------------------------------------------------------------------------
+% \vspace{-6mm}
+% \cvsect{Elevator pitch}
+%
+% \vspace{2.1mm}
+% {\small
+% \hspace{10pt} Write a text about what makes you stand out from your competition. Think about it as what a recruiter would say to a prospect in order to convince them to hire you. \lorem \lorem \\
+%
+% \vspace{-0.7em}
+% \hspace{10pt} \lorem \lorem \lorem \lorem \lorem}
+%
+\end{document}
